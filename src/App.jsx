@@ -167,7 +167,7 @@ function Nav({ active }) {
       borderBottom: "1px solid rgba(0,194,255,0.07)"
     }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", height: 54, justifyContent: "space-between" }}>
-        <span onClick={() => go("hero")} style={{ color: "#00c2ff", fontWeight: 800, fontSize: 16, letterSpacing: 3, fontFamily: "var(--mono)", cursor: "pointer" }}>A.S.</span>
+        <span onClick={() => go("hero")} style={{ color: "#00c2ff", fontWeight: 800, fontSize: 16, letterSpacing: 3, fontFamily: "var(--mono)", cursor: "pointer" }}>Apardeep Singh</span>
 
         {isMobile && (
           <button onClick={() => setOpen(!open)} style={{ background: "none", border: "none", color: "#00c2ff", fontSize: 22, cursor: "pointer", padding: 4 }}>
