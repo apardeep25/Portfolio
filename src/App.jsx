@@ -232,7 +232,7 @@ const EXP = [
   {
     co: "ControlCase", role: "Associate Consultant", when: "Dec 2023 – Apr 2024",
     pts: [
-      "Executed PCI DSS, ISO 27001, SOC 1 & SOC 2 certification assessments for enterprise clients in fintech, SaaS, and e-commerce",
+      "Executed PCI DSS, and ISO 27001:2022 certification assessments for enterprise clients in fintech, SaaS, and e-commerce",
       "Conducted infrastructure and cloud security assessments — identified gaps, validated controls, and accelerated certification timelines",
       "Managed client-facing audit communication, evidence review, and remediation advisory"
     ]
@@ -250,7 +250,7 @@ const PROJECTS = [
   { title: "Compliance Tracking & Audit Readiness Program", tag: "GRC", color: "#00c2ff",
     desc: "Built end-to-end evidence workflows, centralized compliance tracking, and audit response systems — reduced audit prep time by 40% with zero overdue findings across PCI DSS and ISO 27001 cycles." },
   { title: "Internal GRC Portal", tag: "PRODUCT", color: "#a78bfa",
-    desc: "Designed a scalable GRC portal with framework-based questionnaires (PCI DSS, ISO, SOC), evidence upload pipelines, dashboard analytics, automated reminders, and role-based access for org-wide compliance visibility." },
+    desc: "Designed a scalable GRC portal with framework-based questionnaires (PCI DSS, ISO 27001), evidence upload pipelines, dashboard analytics, automated reminders, and role-based access for org-wide compliance visibility." },
   { title: "Vulnerability & Scan Coordination", tag: "SECURITY", color: "#f472b6",
     desc: "Coordinated ASV scans, internal vulnerability assessments, and penetration testing aligned to PCI DSS requirements. Structured evidence packages and remediation tracking for QSA submissions." },
   { title: "PCI DSS Audit Execution", tag: "AUDIT", color: "#34d399",
@@ -260,7 +260,7 @@ const PROJECTS = [
 ];
 
 const SKILLS = [
-  { title: "GRC & Compliance", items: [["PCI DSS",95],["ISO 27001:2022",92],["SOC 1 & SOC 2",85],["GDPR / HITRUST",75]] },
+  { title: "GRC & Compliance", items: [["PCI DSS",95],["ISO 27001:2022",92],["DPDP",85],["DLSAR",75]] },
   { title: "Security Operations", items: [["SIEM & Monitoring",88],["Incident Response",82],["Threat Analysis",80],["Vulnerability Mgmt",90]] },
   { title: "Tools & Platforms", items: [["Wazuh / Nessus / Burp Suite",88],["OWASP ZAP / Google SCC",82],["Cloud Armor / GCP / AWS",80],["Docker / GitHub / Seqrite",78]] },
   { title: "Networking & Scripting", items: [["VLAN / ADC / TCP-IP",85],["Python / Bash / SQL",75]] },
@@ -403,7 +403,7 @@ export default function App() {
                 I don't just check boxes — I build <strong style={S.cyan}>compliance systems</strong>: centralized evidence platforms, GRC portals, automated workflows, and dashboards that give leadership real-time visibility into organizational risk posture.
               </p>
               <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 20 }}>
-                {["PCI DSS","ISO 27001","SOC 2","GCP","AWS","Wazuh"].map(t => (
+                {["PCI DSS","ISO 27001","DL-SAR","DPDP","GCP","AWS","Wazuh"].map(t => (
                   <span key={t} style={{ fontSize: 11, fontFamily: "var(--mono)", color: "#00c2ff", background: "rgba(0,194,255,0.08)", border: "1px solid rgba(0,194,255,0.15)", padding: "4px 12px", borderRadius: 5, fontWeight: 600 }}>{t}</span>
                 ))}
               </div>
@@ -507,7 +507,7 @@ export default function App() {
               {[
                 { label: "PCI DSS Compliance", pct: 96, color: "#00c2ff" },
                 { label: "ISO 27001 Readiness", pct: 92, color: "#34d399" },
-                { label: "SOC 2 Control Coverage", pct: 88, color: "#a78bfa" },
+                { label: "DPDP Control Coverage", pct: 88, color: "#a78bfa" },
                 { label: "Audit Findings Resolved", pct: 98, color: "#fbbf24" }
               ].map((m, i) => (
                 <div key={i} style={{ marginBottom: 20 }}>
