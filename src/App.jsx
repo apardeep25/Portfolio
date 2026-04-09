@@ -220,7 +220,7 @@ const S = {
    ════════════════════════════════════════ */
 const EXP = [
   {
-    co: "Plutos ONE Financial Services", role: "Compliance Specialist", when: "Apr 2024 – Present", current: true,
+    co: "Plutos One", role: "Compliance Specialist", when: "May 2025 – Present", current: true,
     pts: [
       "Own end-to-end PCI DSS & ISO 27001:2022 compliance — scoping, gap analysis, control implementation, evidence lifecycle, and final QSA coordination",
       "Coordinate directly with bank auditors, acquiring banks, and external QSAs — manage audit timelines, deliverables, and remediation tracking",
@@ -230,7 +230,7 @@ const EXP = [
     ]
   },
   {
-    co: "ControlCase", role: "Associate Consultant", when: "Dec 2023 – Apr 2024",
+    co: "ControlCase", role: "Associate Consultant", when: "May 2023 – Apr 2025",
     pts: [
       "Executed PCI DSS, and ISO 27001:2022 certification assessments for enterprise clients in fintech, SaaS, and e-commerce",
       "Conducted infrastructure and cloud security assessments — identified gaps, validated controls, and accelerated certification timelines",
@@ -238,7 +238,7 @@ const EXP = [
     ]
   },
   {
-    co: "ISOURSE Technologies", role: "Network Engineer", when: "Jun 2022 – Nov 2023",
+    co: "Isourse Technologies", role: "Network Engineer", when: "Sept 2022 – March 2023",
     pts: [
       "Designed and deployed enterprise LAN/WAN/VPN architectures with endpoint security, DLP, and IDS/IPS integration",
       "Managed Cisco, Sophos, and Seqrite platforms — DHCP snooping, VLAN segmentation, network monitoring and optimization"
@@ -260,7 +260,7 @@ const PROJECTS = [
 ];
 
 const SKILLS = [
-  { title: "GRC & Compliance", items: [["PCI DSS",95],["ISO 27001:2022",92],["DPDP",85],["DLSAR",75]] },
+  { title: "GRC & Compliance", items: [["PCI DSS",95],["ISO 27001:2022",92],["DPDP",85],["DL-SAR",75]] },
   { title: "Security Operations", items: [["SIEM & Monitoring",88],["Incident Response",82],["Threat Analysis",80],["Vulnerability Mgmt",90]] },
   { title: "Tools & Platforms", items: [["Wazuh / Nessus / Burp Suite",88],["OWASP ZAP / Google SCC",82],["Cloud Armor / GCP / AWS",80],["Docker / GitHub / Seqrite",78]] },
   { title: "Networking & Scripting", items: [["VLAN / ADC / TCP-IP",85],["Python / Bash / SQL",75]] },
