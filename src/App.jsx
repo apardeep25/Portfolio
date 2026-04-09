@@ -620,7 +620,7 @@ export default function App() {
             {[
               { icon: "✉", label: "apardeepsingh@gmail.com", href: "mailto:apardeepsingh@gmail.com" },
               { icon: "☎", label: "+91-8799753263", href: "tel:+918799753263" },
-              { icon: "⬡", label: "LinkedIn Profile", href: "https://linkedin.com/in/apardeep-singh" },
+              { icon: "⬡", label: "LinkedIn Profile", href: "https://www.linkedin.com/in/apardeepsingh/" },
               { icon: "◉", label: "Delhi, India", href: null }
             ].map((c, i) => (
               <Card key={i} delay={i * 100} style={{ padding: "15px 22px", display: "flex", alignItems: "center", gap: 12 }}>
